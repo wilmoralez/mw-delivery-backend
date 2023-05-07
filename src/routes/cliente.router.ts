@@ -1,7 +1,8 @@
 import express from "express"; 
-import {getCredencialesClientes} from "../controllers/cliente-controller"
+import {autenticarUsuario, postCliente} from "../controllers/cliente-controller"
 
 const router = express.Router();
-router.get("/", getCredencialesClientes);
+router.post("/autenticar", autenticarUsuario);
+router.post("/", postCliente);
 
 export default router; 

@@ -3,12 +3,10 @@ import { CategoriaSchema } from "../models/categoria.schema";
 
 export const getCategoriasGenero = (req: Request, res:Response) => {
     const cod = req.params.cod;
-    CategoriaSchema.find({codTienda: cod}, {categorias: true})
+    
+    CategoriaSchema.findOne({codTienda: cod})
     .then((categorias)=>{
-        const portadas: string[][] = categorias.map((categoria) =>
-        categoria.categorias.map((item) => item.portada)
-      );
-        res.send(portadas); 
+        res.send(categorias); 
         res.end();
     })
     .catch((error)=>{

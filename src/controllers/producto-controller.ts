@@ -4,7 +4,7 @@ import { ProductoSchema } from "../models/producto.schema";
 export const getProductos = (req: Request, res: Response) => {
     const cod = req.params.cod;
     
-    ProductoSchema.findOne({ codProducto: cod })
+    ProductoSchema.find({ codProducto: cod })
     .then((productos) => {
         res.send(productos);
         res.end();

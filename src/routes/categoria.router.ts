@@ -3,6 +3,6 @@ import {getCategoriasGenero} from "../controllers/categoria-controller";
 
 const router = express.Router(); 
 
-router.get("/:codTienda/genero", getCategoriasGenero); 
+router.get("/:cod", getCategoriasGenero); 
 
 export default router;
