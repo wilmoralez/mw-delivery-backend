@@ -29,7 +29,7 @@ export const postOrden = (req:Request, res:Response) => {
 
     nuevaOrden.save()
     .then((orden)=>{
-        res.send('¡Orden lista para ser procesada!'); 
+        res.send({Message:'¡Orden lista para ser procesada!', Orden: orden}); 
         res.end(); 
     })
     .catch((error)=>{

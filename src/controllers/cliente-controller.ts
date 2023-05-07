@@ -1,11 +1,13 @@
 import { Request, Response } from "express";
 import { ClienteSchema } from "../models/cliente.schema";
 
+
+
 export const autenticarUsuario=(req:Request, res:Response)=>{
     const email = req.body.email;
     const password = req.body.password;
   
-    ClienteSchema.findOne({ correo: email, contraseña: password}, {nombre: true, apellido: true})
+    ClienteSchema.findOne({ correo: email, contraseña: password},)
     .then((usuario) => {
       if (usuario) {
         res.send(usuario);

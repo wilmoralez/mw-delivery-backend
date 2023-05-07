@@ -6,5 +6,7 @@ export interface Cliente {
     contraseña: string; 
     nombre: string; 
     apellido: string;
+    direccion: string;
+    telefono: string;
 }
 
