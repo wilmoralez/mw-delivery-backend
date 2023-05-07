@@ -12,3 +12,28 @@ export const getOrdenes = (req: Request, res:Response) => {
         res.end();
     })
 }
+
+export const postOrden = (req:Request, res:Response) => {
+    let nuevaOrden = new OrdenSchema (
+        {
+            "nombreCliente": req.body.nombreCliente,
+            "direccion": req.body.direccion, 
+            "ciudad": req.body.ciudad,
+            "telefono": req.body.telefono,
+            "tienda:": req.body.tienda,
+            "items":  req.body.items, 
+            "disponible" : req.body.disponible,
+            "pendiente": req.body.pendiente
+        }
+    ); 
+
+    nuevaOrden.save()
+    .then((orden)=>{
+        res.send('¡Orden lista para ser procesada!'); 
+        res.end(); 
+    })
+    .catch((error)=>{
+        res.send(error); 
+        res.end();
+    })
+}
