@@ -6,7 +6,7 @@ import categoriasRouter from "./routes/categoria.router";
 import productosRouter from "./routes/producto.router"; 
 import ordenesRouter from "./routes/orden.router";
 import motoristasRouter from "./routes/motorista.router";
-
+import admiRouter from "./routes/administrador.router"
 import { Database } from "./utils/database";
 import cors from 'cors';
 
@@ -26,6 +26,7 @@ app.use('/categorias', categoriasRouter);
 app.use('/productos', productosRouter); 
 app.use('/ordenes', ordenesRouter);
 app.use('/motoristas', motoristasRouter)
+app.use('/administradores', admiRouter);
 
 app.listen(port, () => {
 	console.log(`⚡️Servidor levantado en https://localhost:${port}`);

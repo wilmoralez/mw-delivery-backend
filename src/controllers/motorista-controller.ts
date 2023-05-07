@@ -58,3 +58,47 @@ export const obtenerMotorista=(req: Request, res: Response)=>{
     })
     .catch((error) => console.error(error));
 };
+
+export const obtenerMotoristas=(req: Request, res: Response)=>{
+  MotoristaSchema.find({aprobacion: false})
+  .then((result) => {
+      
+      res.send(result);
+      res.end();
+      
+  })
+  .catch((error) => console.error(error));
+};
+
+export const actualizarMotorista=(req: Request, res: Response)=>{
+  MotoristaSchema.updateOne(//(filtro, informacion)
+  {
+      _id:req.params.id
+  }, 
+  { 
+      aprobacion: true} 
+      ).then(
+          result=>{
+              res.send(result);
+              res.end();
+              //res.send({codigoResultado:1, mensaje:"Motorista actualizado"});
+          }
+      ).catch(error=>{
+          res.send("Error al actualizar");
+          //recomendable para gestionar errores desde base de datos
+      });
+}
+
+export const eliminarMotorista=(req: Request, res: Response)=>{
+  MotoristaSchema.deleteOne(
+    {
+        _id:req.params.id
+    }
+).then((result: any)=>{
+    res.send(result);
+    res.end();
+}).catch((error: any)=>{
+    res.send(error);
+    res.end();
+});
+}
