@@ -1,0 +1,37 @@
+[{
+  "_id": {
+    "$oid": "6455c9497475495d012d5253"
+  },
+  "codTienda": "pb",
+  "nombreTienda": "Pull and Bear",
+  "logo": "logo_PullandBear.png",
+  "descripcion": "Pull&Bear arranca en el año 1991 con clara vocación internacional y con la intención de vestir a jóvenes comprometidos con su entorno, que viven en comunidad y se relacionan entre sí. Jóvenes que visten de forma relajada, huyendo de los estereotipos y que quieren sentirse bien con lo que llevan.",
+  "calificacion": 5
+},{
+  "_id": {
+    "$oid": "6455c9497475495d012d5254"
+  },
+  "codTienda": "s",
+  "nombreTienda": "Stradivarius",
+  "logo": "logo_Stradivarius.png",
+  "descripcion": "Hay muchas formas de vivir la moda. En Stradivarius la entendemos como una forma de expresión, como una forma de divertirnos, de dejarnos llevar. Y precisamente porque las personas no nos sentimos siempre igual, del mismo modo que nuestro estilo cambia, evoluciona y se transforma, diseñamos nuestras colecciones pensando en distintas situaciones, en diferentes momentos vitales.",
+  "calificacion": 4
+},{
+  "_id": {
+    "$oid": "6455c9497475495d012d5255"
+  },
+  "codTienda": "z",
+  "nombreTienda": "Zara",
+  "logo": "logo_Zara.png",
+  "descripcion": "Zara es una de las principales empresas de moda internacional. Pertenece a Inditex, uno de los mayores grupos de distribución del mundo. El cliente es el centro de nuestro particular modelo de negocio, que integra diseño, fabricación, distribución y venta, a través de una amplia red de tiendas propia.",
+  "calificacion": 5
+},{
+  "_id": {
+    "$oid": "6455c9497475495d012d5256"
+  },
+  "codTienda": "b",
+  "nombreTienda": "Bershka",
+  "logo": "logo_bershka.png",
+  "descripcion": "Bershka se presenta como un punto de referencia para la moda dirigida a este público cada vez más exigente y, en tan sólo 2 años, alcanza los 100 establecimientos consolidando así su imagen de marca. Actualmente, tras 18 años, la cadena cuenta con más de 1000 tiendas en más de 70 mercados, con ventas que representan el 9% del total de ingresos de todo el grupo",
+  "calificacion": 4
+}]

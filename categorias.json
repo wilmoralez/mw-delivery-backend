@@ -1,0 +1,85 @@
+[{
+  "_id": {
+    "$oid": "6455c85e7475495d012d524a"
+  },
+  "codTienda": "pb",
+  "categorias": [
+    {
+      "genero": "femenino",
+      "portada": "portadaM-pb.jpg",
+      "ropa": "ropaM-pb.jpg",
+      "zapatos": "zapatosM-pb.jpg",
+      "accesorios": "accesoriosM-pb.jpg"
+    },
+    {
+      "genero": "masculino",
+      "portada": "portadaH-pb.webp",
+      "ropa": "ropaH-pb.jpg",
+      "zapatos": "zapatosH-pb.jpg",
+      "accesorios": "accesoriosH-pb.jpg"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6455c85e7475495d012d524c"
+  },
+  "codTienda": "z",
+  "categorias": [
+    {
+      "genero": "femenino",
+      "portada": "portadaM-zara.jpg",
+      "ropa": "ropaM-zara.jpg",
+      "zapatos": "zapatosM-zara.jpg",
+      "accesorios": "accesoriosM-zara.jpg"
+    },
+    {
+      "genero": "masculino",
+      "portada": "portadaH-zara.jpg",
+      "ropa": "ropaH-zara.jpg",
+      "zapatos": "zapatosH-zara.jpg",
+      "accesorios": "accesoriosH-zara.jpg"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6455c85e7475495d012d524d"
+  },
+  "codTienda": "b",
+  "categorias": [
+    {
+      "genero": "femenino",
+      "portada": "portadaM-bershka.jpg",
+      "ropa": "ropaM-bershka.webp",
+      "zapatos": "zapatosM-bershka.webp",
+      "accesorios": "accesoriosM-bershka.webp"
+    },
+    {
+      "genero": "masculino",
+      "portada": "portadaH-bershka.jpg",
+      "ropa": "ropaH-bershka.webp",
+      "zapatos": "zapatosH-bershka.webp",
+      "accesorios": "accesoriosH-bershka.jpg"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6457056e2912c56337e2e6b1"
+  },
+  "codTienda": "s",
+  "categorias": [
+    {
+      "genero": "femenino",
+      "portada": "portadaM-stra.jpg",
+      "ropa": "ropaM-stra.jpg",
+      "zapatos": "zapatosM-stra.jpg",
+      "accesorios": "accesoriosM-stra.jpg"
+    },
+    {
+      "genero": "masculino",
+      "portada": "portadaH-stra.jpg",
+      "ropa": "ropaH-stra.jpg",
+      "zapatos": "zapatosH-stra.jpg",
+      "accesorios": "accesoriosH-stra.jpg"
+    }
+  ]
+}]
