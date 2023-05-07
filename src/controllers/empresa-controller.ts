@@ -1,8 +1,9 @@
 import { Request, Response } from "express";
 import { EmpresaSchema } from "../models/empresa.schema";
 
-export const getEmpresas = (req: Request, res:Response) => {
-    EmpresaSchema.find()
+export const getEmpresa = (req: Request, res:Response) => {
+    const cod = req.params.cod
+    EmpresaSchema.findOne({codTienda: cod})
     .then((empresas)=>{
         res.send(empresas); 
         res.end();

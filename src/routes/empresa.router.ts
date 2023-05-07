@@ -1,8 +1,8 @@
 import express from "express";
-import {getEmpresas} from "../controllers/empresa-controller"; 
+import {getEmpresa} from "../controllers/empresa-controller"; 
 
 const router = express.Router();
 
-router.get("/:", getEmpresas); 
+router.get("/:cod", getEmpresa); 
 
 export default router;
