@@ -1,0 +1,52 @@
+[{
+  "_id": {
+    "$oid": "6455c93e7475495d012d524f"
+  },
+  "correo": "marialopez@gmail.com",
+  "contraseña": "1234ASas",
+  "nombre": "Maria",
+  "apellido": "Lopez"
+},{
+  "_id": {
+    "$oid": "6455c93e7475495d012d5250"
+  },
+  "correo": "joseflores@gmail.com",
+  "contraseña": "5678ASas",
+  "nombre": "Jose",
+  "apellido": "Flores"
+},{
+  "_id": {
+    "$oid": "6455c93e7475495d012d5251"
+  },
+  "correo": "andreasuazo@gmail.com",
+  "contraseña": "91011ASas",
+  "nombre": "Andrea",
+  "apellido": "Suazo"
+},{
+  "_id": {
+    "$oid": "6456907602cfe62023f7d2cf"
+  },
+  "correo": "juanperez@gmail.com",
+  "contraseña": "4533GDcc",
+  "nombre": "Juan",
+  "apellido": "Perez",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6456912902cfe62023f7d2d5"
+  },
+  "correo": "anabanana@gmail.com",
+  "contraseña": "4533GDjj",
+  "nombre": "Ana ",
+  "apellido": "Torres",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6456c827276946202b1e7367"
+  },
+  "correo": "camilaandino@gmail.com",
+  "contraseña": "2323aaAA",
+  "nombre": "Camila",
+  "apellido": "Andino",
+  "__v": 0
+}]

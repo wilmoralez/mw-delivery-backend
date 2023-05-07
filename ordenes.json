@@ -1,0 +1,32 @@
+[{
+  "_id": {
+    "$oid": "6455c9537475495d012d5258"
+  },
+  "nombreCliente": "Maria Lopez",
+  "direccion": "Col. La primavera, bloque B, casa 1233",
+  "ciudad": "Tegucigalpa",
+  "telefono": "+504 9909-8877",
+  "tienda": "STRADIVARIUS",
+  "items": [
+    {
+      "cantidad": 2,
+      "descripcion": "Vestido largo tye-die"
+    }
+  ],
+  "disponible": true,
+  "pendiente": [
+    "tomada",
+    "en camino",
+    "en destino"
+  ]
+},{
+  "_id": {
+    "$oid": "64580ef32e9f53b6917b7d39"
+  },
+  "nombreCliente": "Maria Medina",
+  "direccion": "sjdjddf",
+  "ciudad": "Tegu",
+  "items": [],
+  "pendiente": [],
+  "__v": 0
+}]
